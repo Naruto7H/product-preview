@@ -9,12 +9,18 @@ body {
   position: relative;
 }
 
+.product-img {
+  display: inline-block;
+}
+
 .text {
-  position: absolute;
-  right: 120px;
-  top: 40px;
+  position: relative;
+  left: 40px;
+  bottom: 100px;
+  display: inline-block;
   font-family: 'Montserrat', sans-serif;
-  width: 40%;
+  width: 45%;
+  background-color: white;
 }
 
 h1 {
@@ -39,12 +45,11 @@ p {
   font-size: 60px;
   display: inline-block;
   color: hsl(158, 36%, 37%);
-  position: relative;
-  width: 75%;
 }
 
 h2 {
   margin: 30px auto 50px;
+  display: inline-block;
 }
 
 .category {
@@ -55,10 +60,11 @@ h2 {
   font-family: 'Fraunces', serif;
   color: black;
   font-size: 1.2rem;
-  position: absolute;
   right: 0;
   top: 50%;
   text-decoration: line-through;
+  position: relative;
+  bottom: 10px;
 }
 
 .cart {
