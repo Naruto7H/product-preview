@@ -94,7 +94,10 @@ h2 {
   .preview{
     flex-direction: column;
   }
+  body{
+  padding-left: 250px;
 
+}
   .text{
     padding: 1% 0 5% 6%;
   }
