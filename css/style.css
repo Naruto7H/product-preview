@@ -98,7 +98,11 @@ h2 {
   padding-left: 250px;
 
 }
+  .perfume-img{
+  width: 100vh;
+}
   .text{
     padding: 1% 0 5% 6%;
+  max-width: 800px;
   }
 }
